@@ -64,7 +64,7 @@ class LocalSongRepository @Inject constructor(private val contentResolver: Conte
             MediaStore.Audio.Media.DURATION
         )
 
-        val selection = "${MediaStore.Audio.Media.DISPLAY_NAME} LIKE ?"
+        val selection = "${MediaStore.Audio.Media.TITLE} LIKE ?"
         val selectionArgs = arrayOf("%$query%")
 
         contentResolver.query(uri, projection, selection, selectionArgs, null)?.use { cursor ->
