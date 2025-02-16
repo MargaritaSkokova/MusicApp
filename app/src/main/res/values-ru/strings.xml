@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="search_input">Найти песню</string>
+    <string name="search_results">Результаты поиска</string>
+    <string name="local_music">Локальная музыка</string>
+    <string name="online_music">Online-музыка</string>
+</resources>

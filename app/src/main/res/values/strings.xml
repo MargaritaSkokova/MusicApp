@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MusicApp</string>
+    <string name="search_input">Find song</string>
+    <string name="search_results">Search results</string>
+    <string name="local_music">Local music</string>
+    <string name="online_music">Online music</string>
 </resources>
