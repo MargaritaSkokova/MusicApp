@@ -44,6 +44,7 @@ android {
 
 dependencies {
     implementation(libs.hilt.android)
+    implementation(libs.androidx.media3.common.ktx)
     ksp(libs.hilt.android.compiler)
     implementation(libs.androidx.media)
     ksp(libs.kotlinx.metadata.jvm)
